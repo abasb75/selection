@@ -11,7 +11,7 @@ npm i selection-js
 
 # copy selected text
 `copyText()` used for copy selected text to user clipboard:
-<image src="https://github.com/abasb75/selection-js/blob/main/assets/copy-text.gif" alt="selection.js">
+<image src="https://github.com/abasb75/selection-js/blob/master/assets/copy-text.gif" alt="selection.js">
 
 ```javascript
 import slection from "selection-js";
@@ -24,7 +24,7 @@ import slection from "selection-js";
 # copy selected text with style
 `copyStyledText()` used for copy selected text with style to user clipboard:
 
-<image src="https://github.com/abasb75/selection-js/blob/main/assets/copy-styled-text.gif" alt="selection.js">
+<image src="https://github.com/abasb75/selection-js/blob/master/assets/copy-styled-text.gif" alt="selection.js">
 
 ```javascript
 import slection from "selection-js";
@@ -37,7 +37,7 @@ import slection from "selection-js";
 # copy selected text with style
 `copyHTML()` used for getting copy of html of selected text to user clipboard:
 
-<image src="https://github.com/abasb75/selection-js/blob/main/assets/copy-html.gif" alt="selection.js">
+<image src="https://github.com/abasb75/selection-js/blob/master/assets/copy-html.gif" alt="selection.js">
 
 ```javascript
 import slection from "selection-js";
@@ -158,6 +158,9 @@ const position = selection.caretPosition();
 ...
 
 ```
+
+<image src="https://github.com/abasb75/selection-js/blob/master/assets/get-caret-position.png" alt="selection.js">
+
 
 
 

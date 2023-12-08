@@ -14,7 +14,7 @@ import copySelectionText from "./copySelectionText";
 import copySelectionHTML from "./copySelectionHTML";
 import copySelectionTextStyle from "./copySelectionTextStyle";
 
-const options = {
+const selectionJS = {
     
     /* html */
     caretPosition:getCaretPositionAtInnerHTML,
@@ -39,15 +39,6 @@ const options = {
 
 }
 
-const selection = {
-    getSelection:()=>{
-        const sel = window.getSelection();
-        return {
-            ...sel,
-            ...options,
-        }
-    },
-    ...options,
-}
 
-export default selection;
+
+export default selectionJS;

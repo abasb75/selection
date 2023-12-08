@@ -27,7 +27,7 @@ function App() {
       <div>
 
       <button onClick={e=>{
-        selection.copyHTML();
+        console.log(selection.getNodes());
         setLabel(`copied!`);
       }}>Copy HTML</button>
 

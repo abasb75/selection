@@ -6,7 +6,7 @@
 
 install with command :
 ```sh
-npm i selection-js
+npm i @abasb75/selection-js
 ```
 
 # copy selected text

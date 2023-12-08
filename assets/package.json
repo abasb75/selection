@@ -1,5 +1,5 @@
 {
-    "name": "selection-js",
+    "name": "@abasb75/selection-js",
     "version": "__APP_VERSION__",
     "description": "Library for work javascript text selection",
     "private": false,

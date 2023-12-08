@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        "lib": [
+            "dom",
+            "esnext",
+        ],
+       "strict": true,
+       "sourceMap": true,
+       "target": "ES5",
+       "outDir": "./release",
+       "module": "ES2015",
+       "resolveJsonModule": true,
+       "allowSyntheticDefaultImports": true
+    },
+    "exclude": [
+       "node_modules","rollup.config.js"
+    ],
+    "include": [
+        "src/**/*.ts"
+    ]
+}

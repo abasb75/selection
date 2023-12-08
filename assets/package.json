@@ -1,0 +1,28 @@
+{
+    "name": "selection-js",
+    "version": "__APP_VERSION__",
+    "description": "Library for work javascript text selection",
+    "private": false,
+    "main": "index.js",
+    "keywords": [
+        "selection",
+        "selection-js",
+        "rich-editor",
+        "getSelection",
+        "window getSelection"
+    ],
+    "peerDependencies": {
+        "@abasb75/copy-to-clipboard": "^0.0.5"
+    },
+    "author": {
+        "name": "Abbas Bagheri",
+        "email": "abasgabagheria@gmail.com",
+        "url": "https://abasgabagheri.ir"
+    },
+    "homepage": "https://github.com/abasb75/selection-js",
+    "bugs": {
+        "email": "abasgabagheria@gmail.com",
+        "url": "https://github.com/abasb75/selection-js/issues"
+    }
+  }
+  
